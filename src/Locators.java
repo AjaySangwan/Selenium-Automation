@@ -15,8 +15,8 @@ public class Locators {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://www.facebook.com/");
 
-		SeleniumWrapperFunctions.SelectTextboxById(driver, "email", "ajaysangwan122@gmail.com");
-		SeleniumWrapperFunctions.SelectTextboxByName(driver, "pass", "Link@20/97");
+		SeleniumWrapperFunctions.SelectTextboxById(driver, "email", "abc122@gmail.com");
+		SeleniumWrapperFunctions.SelectTextboxByName(driver, "pass", "********");
 		SeleniumWrapperFunctions.ClickOnButton(driver, "_42ft");
 		
 		
